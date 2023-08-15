@@ -14,7 +14,7 @@
 </dl>
 
 
-<button class="btn btn-primary m-2">Cambiar nombre</button>
-<button class="btn btn-primary m-2">Cambiar edad</button>
-<!-- <button class="btn btn-primary m-2">Cambiar metodo</button>
-<button class="btn btn-primary m-2">Cambiar capitalizado</button> -->
+<button *ngIf="name !== 'Spiderman'" (click)="changeHero()" class="btn btn-primary m-2">Cambiar nombre</button>
+<button *ngIf="age !== 19" (click)="changeAge()" class="btn btn-primary m-2">Cambiar edad</button>
+<button (click)="resetForm()" class="btn btn-primary m-2">Reset</button>
+<!-- <button class="btn btn-primary m-2">Cambiar capitalizado</button> -->
