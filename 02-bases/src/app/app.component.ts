@@ -8,13 +8,4 @@ import { count } from 'rxjs';
 })
 export class AppComponent {
     public title: string = 'Hola Mundo';
-    public counter: number = 10;
-
-    incrementarValor(value: number): void {
-        this.counter += value;
-    }
-
-    valorDefault(): void {
-        this.counter = 10;
-    }
 }
