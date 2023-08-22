@@ -13,10 +13,11 @@
     }">
         <div class="d-flex align-items-center">
             <span class="text-primary">{{ i }}.</span>
+            <!-- <span>{{character.id}}</span> -->
             <span> Name: {{character.name}} -</span>
             <span><strong>Power:</strong> {{character.power}}</span>
         </div>
-        <button class="btn btn-sm btn-danger" (click)="onDeleteCharacter(i)">X</button>
+        <button class="btn btn-sm btn-danger" (click)="onDeleteCharacter(character.id)">X</button>
         <!-- <span *ngIf="primero"> <strong> Es el primero</strong> </span>
         <span *ngIf="ultimo"> <strong> Es el ultimo</strong> </span>
         <span *ngIf="par"> <strong class="text-warning"> Es par</strong> </span>
