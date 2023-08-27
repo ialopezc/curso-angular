@@ -1,0 +1,20 @@
+{
+    "recommendations": [
+        "gruntfuggly.activitusbar",
+        "angular.ng-template",
+        "cyrilletuzi.angular-schematics",
+        "johnpapa.angular2",
+        "formulahendry.auto-close-tag",
+        "steoates.autoimport",
+        "formulahendry.auto-rename-tag",
+        "aaron-bond.better-comments",
+        "aaravb.chrome-extension-developer-tools",
+        "usernamehw.errorlens",
+        "dsznajder.es7-react-js-snippets",
+        "ecmel.vscode-html-css",
+        "sburg.vscode-javascript-booster",
+        "pkief.material-icon-theme",
+        "quicktype.quicktype",
+        "pmneo.tsimporter"
+    ]
+}
