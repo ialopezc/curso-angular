@@ -1,20 +1,20 @@
 {
     "recommendations": [
-        "gruntfuggly.activitusbar",
+        "aaravb.chrome-extension-developer-tools",
+        "aaron-bond.better-comments",
         "angular.ng-template",
         "cyrilletuzi.angular-schematics",
-        "johnpapa.angular2",
-        "formulahendry.auto-close-tag",
-        "steoates.autoimport",
-        "formulahendry.auto-rename-tag",
-        "aaron-bond.better-comments",
-        "aaravb.chrome-extension-developer-tools",
-        "usernamehw.errorlens",
         "dsznajder.es7-react-js-snippets",
         "ecmel.vscode-html-css",
-        "sburg.vscode-javascript-booster",
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "gruntfuggly.activitusbar",
+        "johnpapa.angular2",
         "pkief.material-icon-theme",
+        "pmneo.tsimporter",
         "quicktype.quicktype",
-        "pmneo.tsimporter"
+        "sburg.vscode-javascript-booster",
+        "steoates.autoimport",
+        "usernamehw.errorlens",
     ]
 }
